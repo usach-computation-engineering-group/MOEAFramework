@@ -28,7 +28,7 @@ import org.apache.commons.math4.util.KthSelector;
 import org.apache.commons.math4.util.Pair;
 import org.moeaframework.core.FitnessEvaluator;
 import org.moeaframework.core.Initialization;
-import org.moeaframework.core.Population;
+import org.moeaframework.core.population.Population;
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.Selection;
 import org.moeaframework.core.Solution;

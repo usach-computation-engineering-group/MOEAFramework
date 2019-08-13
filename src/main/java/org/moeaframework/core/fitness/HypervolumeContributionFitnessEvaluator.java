@@ -22,7 +22,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import org.moeaframework.core.FitnessEvaluator;
-import org.moeaframework.core.Population;
+import org.moeaframework.core.population.Population;
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.Solution;
 import org.moeaframework.core.indicator.Hypervolume;

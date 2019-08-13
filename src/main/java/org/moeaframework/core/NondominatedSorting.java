@@ -20,7 +20,9 @@ package org.moeaframework.core;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.moeaframework.core.NondominatedPopulation.DuplicateMode;
+import org.moeaframework.core.population.NondominatedPopulation;
+import org.moeaframework.core.population.NondominatedPopulation.DuplicateMode;
+import org.moeaframework.core.population.Population;
 import org.moeaframework.core.comparator.DominanceComparator;
 import org.moeaframework.core.comparator.ObjectiveComparator;
 import org.moeaframework.core.comparator.ParetoDominanceComparator;

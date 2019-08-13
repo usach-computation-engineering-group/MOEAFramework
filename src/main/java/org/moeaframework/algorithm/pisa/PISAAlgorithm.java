@@ -36,7 +36,7 @@ import org.apache.commons.lang3.ArrayUtils;
 import org.moeaframework.algorithm.AbstractAlgorithm;
 import org.moeaframework.algorithm.AlgorithmException;
 import org.moeaframework.core.Initialization;
-import org.moeaframework.core.NondominatedPopulation;
+import org.moeaframework.core.population.NondominatedPopulation;
 import org.moeaframework.core.PRNG;
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.Settings;

@@ -23,6 +23,7 @@ import java.util.Iterator;
 import org.apache.commons.math4.exception.MathArithmeticException;
 import org.apache.commons.numbers.core.ArithmeticUtils;
 import org.moeaframework.core.comparator.ParetoDominanceComparator;
+import org.moeaframework.core.population.NondominatedPopulation;
 
 /**
  * Adaptive grid archive. Divides objective space into a number of grid cells,

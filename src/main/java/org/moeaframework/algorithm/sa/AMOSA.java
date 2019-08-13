@@ -23,7 +23,7 @@ import java.util.Random;
 
 import org.moeaframework.algorithm.AlgorithmInitializationException;
 import org.moeaframework.core.Initialization;
-import org.moeaframework.core.NondominatedPopulation;
+import org.moeaframework.core.population.NondominatedPopulation;
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.Solution;
 import org.moeaframework.core.Variation;

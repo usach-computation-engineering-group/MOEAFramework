@@ -17,7 +17,7 @@
  */
 package org.moeaframework.core.spi;
 
-import org.moeaframework.core.NondominatedPopulation;
+import org.moeaframework.core.population.NondominatedPopulation;
 import org.moeaframework.core.Problem;
 
 /**

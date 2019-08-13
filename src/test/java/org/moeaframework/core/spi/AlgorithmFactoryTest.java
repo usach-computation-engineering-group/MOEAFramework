@@ -23,7 +23,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.moeaframework.algorithm.evolutionary.AbstractEvolutionaryAlgorithm;
 import org.moeaframework.core.Algorithm;
-import org.moeaframework.core.Population;
+import org.moeaframework.core.population.Population;
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.operator.RandomInitialization;
 import org.moeaframework.problem.MockRealProblem;

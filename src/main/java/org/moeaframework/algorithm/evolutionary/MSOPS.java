@@ -17,9 +17,9 @@
  */
 package org.moeaframework.algorithm.evolutionary;
 
-import org.moeaframework.algorithm.MSOPSRankedPopulation;
+import org.moeaframework.core.population.MSOPSRankedPopulation;
 import org.moeaframework.core.Initialization;
-import org.moeaframework.core.Population;
+import org.moeaframework.core.population.Population;
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.Solution;
 import org.moeaframework.core.operator.real.DifferentialEvolutionSelection;

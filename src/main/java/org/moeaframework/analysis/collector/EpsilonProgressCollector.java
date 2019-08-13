@@ -17,7 +17,7 @@
  */
 package org.moeaframework.analysis.collector;
 
-import org.moeaframework.core.EpsilonBoxDominanceArchive;
+import org.moeaframework.core.population.EpsilonBoxDominanceArchive;
 import org.moeaframework.core.EpsilonBoxEvolutionaryAlgorithm;
 
 /**

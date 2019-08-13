@@ -26,6 +26,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.moeaframework.TestThresholds;
 import org.moeaframework.TestUtils;
+import org.moeaframework.core.population.Population;
 import org.moeaframework.core.variable.BinaryVariable;
 import org.moeaframework.core.variable.Grammar;
 import org.moeaframework.core.variable.Permutation;

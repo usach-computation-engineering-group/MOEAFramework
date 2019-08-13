@@ -15,10 +15,12 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with the MOEA Framework.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.moeaframework.core;
+package org.moeaframework.core.population;
 
 import java.util.Iterator;
 
+import org.moeaframework.core.Settings;
+import org.moeaframework.core.Solution;
 import org.moeaframework.core.comparator.DominanceComparator;
 import org.moeaframework.core.comparator.ParetoDominanceComparator;
 
@@ -65,7 +67,7 @@ public class NondominatedPopulation extends Population {
 	/**
 	 * Specifies how duplicate solutions are handled. 
 	 */
-	protected final DuplicateMode duplicateMode;
+	public final DuplicateMode duplicateMode;
 
 	/**
 	 * Constructs an empty non-dominated population using the Pareto dominance
@@ -231,7 +233,7 @@ public class NondominatedPopulation extends Population {
 	 * @param s2 the second solution
 	 * @return the distance between the two solutions in objective space
 	 */
-	protected static double distance(Solution s1, Solution s2) {
+	public static double distance(Solution s1, Solution s2) {
 		double distance = 0.0;
 
 		for (int i = 0; i < s1.getNumberOfObjectives(); i++) {

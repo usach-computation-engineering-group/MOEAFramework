@@ -18,6 +18,7 @@
 package org.moeaframework.core;
 
 import org.junit.Before;
+import org.moeaframework.core.population.Population;
 
 /**
  * Tests the {@link FastNondominatedSorting} class.

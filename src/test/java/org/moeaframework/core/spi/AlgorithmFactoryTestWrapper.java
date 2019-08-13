@@ -22,7 +22,7 @@ import java.io.Serializable;
 import java.util.Properties;
 
 import org.moeaframework.core.Algorithm;
-import org.moeaframework.core.NondominatedPopulation;
+import org.moeaframework.core.population.NondominatedPopulation;
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.Solution;
 

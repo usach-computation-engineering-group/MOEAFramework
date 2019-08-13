@@ -20,7 +20,7 @@ package org.moeaframework.algorithm.sa;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.moeaframework.core.NondominatedPopulation;
+import org.moeaframework.core.population.NondominatedPopulation;
 import org.moeaframework.core.Solution;
 
 public class SingleLinkageClustering {

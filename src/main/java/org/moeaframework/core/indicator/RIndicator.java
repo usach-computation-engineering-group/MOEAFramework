@@ -20,7 +20,7 @@ package org.moeaframework.core.indicator;
 import org.apache.commons.numbers.core.ArithmeticUtils;
 import org.apache.commons.numbers.combinatorics.BinomialCoefficient;
 import org.moeaframework.core.FrameworkException;
-import org.moeaframework.core.NondominatedPopulation;
+import org.moeaframework.core.population.NondominatedPopulation;
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.Solution;
 

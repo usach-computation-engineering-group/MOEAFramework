@@ -23,7 +23,7 @@ import java.util.List;
 
 import org.apache.commons.math4.stat.StatUtils;
 import org.moeaframework.core.PRNG;
-import org.moeaframework.core.Population;
+import org.moeaframework.core.population.Population;
 import org.moeaframework.core.Solution;
 import org.moeaframework.core.Variation;
 

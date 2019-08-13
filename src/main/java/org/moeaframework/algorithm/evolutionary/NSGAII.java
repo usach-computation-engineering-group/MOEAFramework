@@ -21,12 +21,12 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-import org.moeaframework.core.EpsilonBoxDominanceArchive;
+import org.moeaframework.core.population.EpsilonBoxDominanceArchive;
 import org.moeaframework.core.EpsilonBoxEvolutionaryAlgorithm;
 import org.moeaframework.core.Initialization;
-import org.moeaframework.core.NondominatedSortingPopulation;
+import org.moeaframework.core.population.NondominatedSortingPopulation;
 import org.moeaframework.core.PRNG;
-import org.moeaframework.core.Population;
+import org.moeaframework.core.population.Population;
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.Selection;
 import org.moeaframework.core.Solution;

@@ -23,11 +23,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.moeaframework.algorithm.AlgorithmInitializationException;
-import org.moeaframework.algorithm.evolutionary.ReferenceVectorGuidedPopulation.ReferenceVectorGuidedPopulationState;
+import org.moeaframework.core.population.ReferenceVectorGuidedPopulation;
+import org.moeaframework.core.population.ReferenceVectorGuidedPopulation.ReferenceVectorGuidedPopulationState;
 import org.moeaframework.core.FrameworkException;
 import org.moeaframework.core.Initialization;
 import org.moeaframework.core.PRNG;
-import org.moeaframework.core.Population;
+import org.moeaframework.core.population.Population;
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.Solution;
 import org.moeaframework.core.Variation;

@@ -20,8 +20,8 @@ package org.moeaframework.analysis.sensitivity;
 import org.junit.Assert;
 import org.junit.Test;
 import org.moeaframework.TestUtils;
-import org.moeaframework.core.EpsilonBoxDominanceArchive;
-import org.moeaframework.core.NondominatedPopulation;
+import org.moeaframework.core.population.EpsilonBoxDominanceArchive;
+import org.moeaframework.core.population.NondominatedPopulation;
 import org.moeaframework.core.spi.ProblemFactory;
 
 /**

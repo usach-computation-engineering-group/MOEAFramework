@@ -18,7 +18,7 @@
 package org.moeaframework.examples.ga.NK;
 
 import org.moeaframework.Executor;
-import org.moeaframework.core.NondominatedPopulation;
+import org.moeaframework.core.population.NondominatedPopulation;
 import org.moeaframework.core.Solution;
 import org.moeaframework.core.comparator.LexicographicalComparator;
 

@@ -23,6 +23,7 @@ import java.util.Iterator;
 import org.junit.Assert;
 import org.junit.Test;
 import org.moeaframework.core.comparator.NondominatedSortingComparator;
+import org.moeaframework.core.population.NondominatedSortingPopulation;
 
 /**
  * Tests the {@link NondominatedSortingPopulation} class.

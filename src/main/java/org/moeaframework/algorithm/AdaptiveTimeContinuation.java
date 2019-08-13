@@ -22,8 +22,8 @@ import java.io.Serializable;
 
 import org.apache.commons.lang3.event.EventListenerSupport;
 import org.moeaframework.core.EvolutionaryAlgorithm;
-import org.moeaframework.core.NondominatedPopulation;
-import org.moeaframework.core.Population;
+import org.moeaframework.core.population.NondominatedPopulation;
+import org.moeaframework.core.population.Population;
 import org.moeaframework.core.Selection;
 import org.moeaframework.core.Solution;
 import org.moeaframework.core.Variation;

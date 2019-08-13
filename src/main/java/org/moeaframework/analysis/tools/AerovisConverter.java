@@ -31,7 +31,7 @@ import org.apache.commons.cli.Options;
 import org.moeaframework.analysis.sensitivity.ProblemStub;
 import org.moeaframework.analysis.sensitivity.ResultEntry;
 import org.moeaframework.analysis.sensitivity.ResultFileReader;
-import org.moeaframework.core.Population;
+import org.moeaframework.core.population.Population;
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.Solution;
 import org.moeaframework.core.spi.ProblemFactory;

@@ -22,7 +22,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.moeaframework.Executor;
 import org.moeaframework.TestThresholds;
-import org.moeaframework.core.NondominatedPopulation;
+import org.moeaframework.core.population.NondominatedPopulation;
 import org.moeaframework.core.Solution;
 import org.moeaframework.core.variable.EncodingUtils;
 import org.moeaframework.problem.DTLZ.DTLZ2;

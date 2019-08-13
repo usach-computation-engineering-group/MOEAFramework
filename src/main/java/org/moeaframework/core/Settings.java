@@ -33,7 +33,7 @@ import java.util.Properties;
 import org.apache.commons.lang3.text.StrTokenizer;
 import org.moeaframework.util.TypedProperties;
 import org.moeaframework.util.io.FileProtection;
-import org.moeaframework.core.NondominatedPopulation.DuplicateMode;
+import org.moeaframework.core.population.NondominatedPopulation.DuplicateMode;
 import org.moeaframework.core.indicator.Hypervolume;
 
 /**

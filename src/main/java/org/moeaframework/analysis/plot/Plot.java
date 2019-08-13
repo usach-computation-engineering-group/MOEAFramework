@@ -68,7 +68,7 @@ import org.moeaframework.Analyzer.AnalyzerResults;
 import org.moeaframework.analysis.collector.Accumulator;
 import org.moeaframework.analysis.diagnostics.PaintHelper;
 import org.moeaframework.core.FrameworkException;
-import org.moeaframework.core.Population;
+import org.moeaframework.core.population.Population;
 import org.moeaframework.core.Solution;
 
 /**

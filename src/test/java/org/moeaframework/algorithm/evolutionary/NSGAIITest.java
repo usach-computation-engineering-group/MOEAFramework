@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
 import org.moeaframework.RetryOnTravis;
 import org.moeaframework.TravisRunner;
 import org.moeaframework.algorithm.AlgorithmTest;
-import org.moeaframework.core.NondominatedSortingPopulation;
+import org.moeaframework.core.population.NondominatedSortingPopulation;
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.Solution;
 import org.moeaframework.core.Variation;

@@ -18,7 +18,7 @@
 package org.moeaframework.core.operator.real;
 
 import org.moeaframework.core.PRNG;
-import org.moeaframework.core.Population;
+import org.moeaframework.core.population.Population;
 import org.moeaframework.core.Selection;
 import org.moeaframework.core.Solution;
 

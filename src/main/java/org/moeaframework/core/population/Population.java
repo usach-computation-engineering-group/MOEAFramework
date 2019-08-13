@@ -15,7 +15,7 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with the MOEA Framework.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.moeaframework.core;
+package org.moeaframework.core.population;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -25,6 +25,8 @@ import java.util.ConcurrentModificationException;
 import java.util.Iterator;
 import java.util.List;
 import java.util.NoSuchElementException;
+
+import org.moeaframework.core.Solution;
 
 /**
  * A collection of solutions and common methods for manipulating the collection.

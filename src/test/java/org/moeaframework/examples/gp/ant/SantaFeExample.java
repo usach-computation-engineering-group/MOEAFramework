@@ -22,7 +22,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 import org.moeaframework.Executor;
-import org.moeaframework.core.NondominatedPopulation;
+import org.moeaframework.core.population.NondominatedPopulation;
 
 /**
  * Example running the ant trail problem with the Santa Fe trail.  NSGA-II

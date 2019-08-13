@@ -18,8 +18,8 @@
 package org.moeaframework.algorithm.evolutionary;
 
 import org.moeaframework.core.Initialization;
-import org.moeaframework.core.NondominatedPopulation;
-import org.moeaframework.core.Population;
+import org.moeaframework.core.population.NondominatedPopulation;
+import org.moeaframework.core.population.Population;
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.Selection;
 import org.moeaframework.core.Solution;

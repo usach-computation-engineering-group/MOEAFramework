@@ -28,7 +28,7 @@ import java.util.List;
 import org.apache.commons.math4.util.MathArrays;
 import org.moeaframework.core.FrameworkException;
 import org.moeaframework.core.Initialization;
-import org.moeaframework.core.NondominatedPopulation;
+import org.moeaframework.core.population.NondominatedPopulation;
 import org.moeaframework.core.PRNG;
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.Solution;

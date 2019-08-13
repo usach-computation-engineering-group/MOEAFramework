@@ -18,7 +18,7 @@ package org.moeaframework.examples.runnables;
  * along with the MOEA Framework.  If not, see <http://www.gnu.org/licenses/>.
  */
 import org.moeaframework.Executor;
-import org.moeaframework.core.NondominatedPopulation;
+import org.moeaframework.core.population.NondominatedPopulation;
 import org.moeaframework.core.Solution;
 import org.moeaframework.core.variable.EncodingUtils;
 import org.moeaframework.core.variable.RealVariable;

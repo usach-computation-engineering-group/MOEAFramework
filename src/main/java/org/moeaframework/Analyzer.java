@@ -37,7 +37,7 @@ import org.moeaframework.analysis.sensitivity.ResultEntry;
 import org.moeaframework.analysis.sensitivity.ResultFileReader;
 import org.moeaframework.analysis.sensitivity.ResultFileWriter;
 import org.moeaframework.core.Indicator;
-import org.moeaframework.core.NondominatedPopulation;
+import org.moeaframework.core.population.NondominatedPopulation;
 import org.moeaframework.core.PopulationIO;
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.indicator.AdditiveEpsilonIndicator;

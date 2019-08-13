@@ -15,7 +15,7 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with the MOEA Framework.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.moeaframework.algorithm.evolutionary;
+package org.moeaframework.core.population;
 
 import static org.moeaframework.core.FastNondominatedSorting.RANK_ATTRIBUTE;
 
@@ -27,9 +27,9 @@ import java.util.List;
 import java.util.Set;
 
 import org.moeaframework.core.FrameworkException;
-import org.moeaframework.core.NondominatedSortingPopulation;
+import org.moeaframework.core.population.NondominatedSortingPopulation;
 import org.moeaframework.core.PRNG;
-import org.moeaframework.core.Population;
+import org.moeaframework.core.population.Population;
 import org.moeaframework.core.Settings;
 import org.moeaframework.core.Solution;
 import org.moeaframework.core.comparator.DominanceComparator;

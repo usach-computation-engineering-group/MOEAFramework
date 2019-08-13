@@ -15,7 +15,7 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with the MOEA Framework.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.moeaframework.algorithm.evolutionary;
+package org.moeaframework.core.population;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -24,7 +24,7 @@ import java.util.Comparator;
 import java.util.List;
 
 import org.moeaframework.core.FrameworkException;
-import org.moeaframework.core.Population;
+import org.moeaframework.core.population.Population;
 import org.moeaframework.core.Solution;
 import org.moeaframework.util.Vector;
 import org.moeaframework.util.weights.NormalBoundaryIntersectionGenerator;
@@ -478,7 +478,7 @@ public class ReferenceVectorGuidedPopulation extends Population {
 	 * 
 	 * @return the serializable state of this population
 	 */
-	protected ReferenceVectorGuidedPopulationState getState() {
+	public ReferenceVectorGuidedPopulationState getState() {
 		double[] idealPointClone = idealPoint == null ? null : idealPoint.clone();
 		List<double[]> originalWeightsClone = new ArrayList<double[]>();
 		List<double[]> weightsClone = new ArrayList<double[]>();
@@ -507,7 +507,7 @@ public class ReferenceVectorGuidedPopulation extends Population {
 	 * 
 	 * @param state the serializable state
 	 */
-	protected void setState(ReferenceVectorGuidedPopulationState state) {
+	public void setState(ReferenceVectorGuidedPopulationState state) {
 		idealPoint = state.getIdealPoint() == null ? null : state.getIdealPoint().clone();
 		minAngles = state.getMinAngles() == null ? null : state.getMinAngles().clone();
 		scalingFactor = state.getScalingFactor();
@@ -530,7 +530,7 @@ public class ReferenceVectorGuidedPopulation extends Population {
 	 * Proxy for serializing the state of this population.  All data fields
 	 * provided to or read from this proxy should be cloned.
 	 */
-	protected static class ReferenceVectorGuidedPopulationState implements Serializable {
+	public static class ReferenceVectorGuidedPopulationState implements Serializable {
 
 		private static final long serialVersionUID = 2967034665150122964L;
 		

@@ -21,6 +21,7 @@ import java.io.NotSerializableException;
 import java.io.Serializable;
 
 import org.moeaframework.algorithm.AlgorithmException;
+import org.moeaframework.core.population.NondominatedPopulation;
 
 /**
  * Interface for an optimization algorithm. An optimization algorithm operates

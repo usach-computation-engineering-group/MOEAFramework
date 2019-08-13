@@ -34,7 +34,7 @@ import java.util.Properties;
 
 import org.apache.commons.codec.binary.Base64;
 import org.moeaframework.core.FrameworkException;
-import org.moeaframework.core.NondominatedPopulation;
+import org.moeaframework.core.population.NondominatedPopulation;
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.Solution;
 import org.moeaframework.core.Variable;

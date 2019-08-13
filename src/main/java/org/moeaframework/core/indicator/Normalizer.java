@@ -19,8 +19,8 @@ package org.moeaframework.core.indicator;
 
 import java.util.Arrays;
 
-import org.moeaframework.core.NondominatedPopulation;
-import org.moeaframework.core.Population;
+import org.moeaframework.core.population.NondominatedPopulation;
+import org.moeaframework.core.population.Population;
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.Settings;
 import org.moeaframework.core.Solution;

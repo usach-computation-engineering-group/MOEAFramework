@@ -25,7 +25,7 @@ import org.moeaframework.Analyzer;
 import org.moeaframework.Executor;
 import org.moeaframework.Instrumenter;
 import org.moeaframework.analysis.collector.Accumulator;
-import org.moeaframework.core.NondominatedPopulation;
+import org.moeaframework.core.population.NondominatedPopulation;
 
 /**
  * Tests the {@link Plot} class.  These tests do not check for the correctness

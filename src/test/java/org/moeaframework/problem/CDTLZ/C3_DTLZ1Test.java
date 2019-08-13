@@ -20,7 +20,7 @@ package org.moeaframework.problem.CDTLZ;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.moeaframework.Executor;
-import org.moeaframework.core.NondominatedPopulation;
+import org.moeaframework.core.population.NondominatedPopulation;
 import org.moeaframework.core.Solution;
 
 /**

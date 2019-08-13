@@ -21,6 +21,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.moeaframework.core.comparator.DominanceComparator;
+import org.moeaframework.core.population.Population;
 
 /**
  * Fast non-dominated sorting algorithm for dominance depth ranking. Assigns the

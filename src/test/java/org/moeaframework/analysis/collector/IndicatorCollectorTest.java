@@ -19,7 +19,7 @@ package org.moeaframework.analysis.collector;
 
 import org.junit.Test;
 import org.moeaframework.core.Indicator;
-import org.moeaframework.core.NondominatedPopulation;
+import org.moeaframework.core.population.NondominatedPopulation;
 
 /**
  * Tests the {@link IndicatorCollector} class.

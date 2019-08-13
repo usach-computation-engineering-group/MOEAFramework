@@ -17,8 +17,8 @@
  */
 package org.moeaframework.analysis.sensitivity;
 
-import org.moeaframework.core.EpsilonBoxDominanceArchive;
-import org.moeaframework.core.Population;
+import org.moeaframework.core.population.EpsilonBoxDominanceArchive;
+import org.moeaframework.core.population.Population;
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.comparator.EpsilonBoxDominanceComparator;
 

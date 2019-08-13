@@ -19,7 +19,7 @@ package org.moeaframework.analysis.sensitivity;
 
 import java.util.Properties;
 
-import org.moeaframework.core.NondominatedPopulation;
+import org.moeaframework.core.population.NondominatedPopulation;
 import org.moeaframework.util.TypedProperties;
 
 /**

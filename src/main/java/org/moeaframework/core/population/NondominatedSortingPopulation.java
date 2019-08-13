@@ -15,13 +15,17 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with the MOEA Framework.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.moeaframework.core;
+package org.moeaframework.core.population;
 
 import static org.moeaframework.core.NondominatedSorting.RANK_ATTRIBUTE;
 
 import java.util.Comparator;
 import java.util.Iterator;
 
+import org.moeaframework.core.FastNondominatedSorting;
+import org.moeaframework.core.NondominatedSorting;
+import org.moeaframework.core.Settings;
+import org.moeaframework.core.Solution;
 import org.moeaframework.core.comparator.CrowdingComparator;
 import org.moeaframework.core.comparator.DominanceComparator;
 import org.moeaframework.core.comparator.NondominatedSortingComparator;

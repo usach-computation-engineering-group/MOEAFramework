@@ -22,7 +22,7 @@ import java.io.IOException;
 
 import org.apache.commons.lang3.SystemUtils;
 import org.moeaframework.Executor;
-import org.moeaframework.core.NondominatedPopulation;
+import org.moeaframework.core.population.NondominatedPopulation;
 import org.moeaframework.core.Solution;
 import org.moeaframework.core.variable.RealVariable;
 import org.moeaframework.problem.ExternalProblem;

@@ -32,6 +32,7 @@ import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.moeaframework.core.population.Population;
 import org.moeaframework.util.io.CommentedLineReader;
 
 /**

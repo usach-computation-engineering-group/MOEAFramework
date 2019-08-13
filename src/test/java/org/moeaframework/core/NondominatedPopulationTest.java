@@ -21,7 +21,8 @@ import java.util.BitSet;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.moeaframework.core.NondominatedPopulation.DuplicateMode;
+import org.moeaframework.core.population.NondominatedPopulation;
+import org.moeaframework.core.population.NondominatedPopulation.DuplicateMode;
 import org.moeaframework.core.variable.EncodingUtils;
 import org.moeaframework.problem.MockBinaryProblem;
 

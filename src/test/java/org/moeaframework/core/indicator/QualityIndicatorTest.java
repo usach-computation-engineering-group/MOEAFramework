@@ -20,7 +20,7 @@ package org.moeaframework.core.indicator;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.moeaframework.core.NondominatedPopulation;
+import org.moeaframework.core.population.NondominatedPopulation;
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.spi.ProblemFactory;
 

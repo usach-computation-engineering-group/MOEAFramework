@@ -20,7 +20,7 @@ package org.moeaframework.algorithm.evolutionary;
 import org.apache.commons.numbers.core.ArithmeticUtils;
 import org.moeaframework.algorithm.AlgorithmInitializationException;
 import org.moeaframework.core.AdaptiveGridArchive;
-import org.moeaframework.core.Population;
+import org.moeaframework.core.population.Population;
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.Solution;
 import org.moeaframework.core.Variation;

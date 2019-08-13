@@ -42,7 +42,7 @@ import org.jfree.base.Library;
 import org.jfree.ui.about.AboutDialog;
 import org.jfree.ui.about.ProjectInfo;
 import org.moeaframework.Instrumenter;
-import org.moeaframework.core.NondominatedPopulation;
+import org.moeaframework.core.population.NondominatedPopulation;
 import org.moeaframework.core.Settings;
 import org.moeaframework.util.Localization;
 

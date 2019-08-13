@@ -21,7 +21,8 @@ import java.io.IOException;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.moeaframework.core.NondominatedPopulation.DuplicateMode;
+import org.moeaframework.core.population.NondominatedPopulation;
+import org.moeaframework.core.population.NondominatedPopulation.DuplicateMode;
 
 /**
  * Tests the {@link Settings} class.  These tests ensure that valid settings

@@ -22,7 +22,7 @@ import java.io.File;
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.OptionBuilder;
 import org.apache.commons.cli.Options;
-import org.moeaframework.core.NondominatedPopulation;
+import org.moeaframework.core.population.NondominatedPopulation;
 import org.moeaframework.core.PopulationIO;
 import org.moeaframework.core.indicator.Contribution;
 import org.moeaframework.util.CommandLineUtility;

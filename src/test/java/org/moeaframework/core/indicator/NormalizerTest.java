@@ -21,7 +21,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.moeaframework.TestUtils;
 import org.moeaframework.analysis.sensitivity.ProblemStub;
-import org.moeaframework.core.NondominatedPopulation;
+import org.moeaframework.core.population.NondominatedPopulation;
 import org.moeaframework.core.Settings;
 
 /**

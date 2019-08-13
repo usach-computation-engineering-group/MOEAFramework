@@ -28,7 +28,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 
 import org.moeaframework.algorithm.Checkpoints;
 import org.moeaframework.core.Algorithm;
-import org.moeaframework.core.NondominatedPopulation;
+import org.moeaframework.core.population.NondominatedPopulation;
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.TerminationCondition;
 import org.moeaframework.core.spi.AlgorithmFactory;

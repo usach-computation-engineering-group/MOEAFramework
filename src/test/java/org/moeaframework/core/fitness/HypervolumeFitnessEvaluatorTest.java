@@ -27,7 +27,7 @@ import org.moeaframework.TestUtils;
 import org.moeaframework.algorithm.jmetal.JMetalProblemAdapter;
 import org.moeaframework.core.FitnessEvaluator;
 import org.moeaframework.core.Initialization;
-import org.moeaframework.core.Population;
+import org.moeaframework.core.population.Population;
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.Solution;
 import org.moeaframework.core.operator.RandomInitialization;

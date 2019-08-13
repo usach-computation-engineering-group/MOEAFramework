@@ -27,7 +27,7 @@ import java.io.PrintStream;
 
 import org.moeaframework.Analyzer;
 import org.moeaframework.Executor;
-import org.moeaframework.core.NondominatedPopulation;
+import org.moeaframework.core.population.NondominatedPopulation;
 import org.moeaframework.core.PopulationIO;
 
 public class GenerateReferenceSets {

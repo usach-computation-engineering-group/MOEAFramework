@@ -41,7 +41,7 @@ import org.apache.commons.math4.linear.RealMatrix;
 import org.apache.commons.math4.stat.descriptive.DescriptiveStatistics;
 import org.junit.Assert;
 import org.junit.Assume;
-import org.moeaframework.core.Population;
+import org.moeaframework.core.population.Population;
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.Settings;
 import org.moeaframework.core.Solution;

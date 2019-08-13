@@ -22,7 +22,7 @@ import java.util.Properties;
 import org.junit.Test;
 import org.moeaframework.TestUtils;
 import org.moeaframework.core.Algorithm;
-import org.moeaframework.core.NondominatedPopulation;
+import org.moeaframework.core.population.NondominatedPopulation;
 import org.moeaframework.core.PRNG;
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.spi.AlgorithmFactory;
