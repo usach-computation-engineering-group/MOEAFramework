@@ -24,7 +24,7 @@ import org.apache.commons.cli.OptionBuilder;
 import org.apache.commons.cli.Options;
 import org.moeaframework.core.population.EpsilonBoxDominanceArchive;
 import org.moeaframework.core.population.NondominatedPopulation;
-import org.moeaframework.core.PopulationIO;
+import org.moeaframework.util.io.PopulationIO;
 import org.moeaframework.core.indicator.Hypervolume;
 import org.moeaframework.util.CommandLineUtility;
 import org.moeaframework.util.TypedProperties;

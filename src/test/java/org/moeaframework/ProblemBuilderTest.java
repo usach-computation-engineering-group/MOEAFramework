@@ -24,13 +24,13 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.moeaframework.core.population.EpsilonBoxDominanceArchive;
 import org.moeaframework.core.population.NondominatedPopulation;
-import org.moeaframework.core.PopulationIO;
+import org.moeaframework.util.io.PopulationIO;
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.Settings;
-import org.moeaframework.core.spi.ProblemFactory;
-import org.moeaframework.core.spi.ProblemFactoryTestWrapper;
-import org.moeaframework.problem.DTLZ.DTLZ2;
-import org.moeaframework.problem.ZDT.ZDT5;
+import org.moeaframework.spi.ProblemFactory;
+import org.moeaframework.spi.ProblemFactoryTestWrapper;
+import org.moeaframework.core.problem.DTLZ.DTLZ2;
+import org.moeaframework.core.problem.ZDT.ZDT5;
 
 /**
  * Tests the {@link ProblemBuilder} class.
@@ -79,7 +79,7 @@ public class ProblemBuilderTest {
 				.getProblemInstance());
 		
 		Assert.assertNotNull(builder.withProblemClass(
-				"org.moeaframework.problem.ZDT.ZDT5").getProblemInstance());
+				"org.moeaframework.core.problem.ZDT.ZDT5").getProblemInstance());
 	}
 	
 	@Test
@@ -90,7 +90,7 @@ public class ProblemBuilderTest {
 				.getProblemInstance();
 		
 		Problem problem2 = builder
-				.withProblemClass("org.moeaframework.problem.DTLZ.DTLZ2", 6)
+				.withProblemClass("org.moeaframework.core.problem.DTLZ.DTLZ2", 6)
 				.getProblemInstance();
 		
 		Assert.assertNotNull(problem1);

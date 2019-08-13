@@ -20,7 +20,7 @@ package org.moeaframework.examples.gp.regression;
 import org.apache.commons.math4.analysis.UnivariateFunction;
 import org.moeaframework.core.Solution;
 import org.moeaframework.core.variable.Program;
-import org.moeaframework.problem.AbstractProblem;
+import org.moeaframework.core.problem.AbstractProblem;
 import org.moeaframework.util.tree.Add;
 import org.moeaframework.util.tree.Cos;
 import org.moeaframework.util.tree.Divide;

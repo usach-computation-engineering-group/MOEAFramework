@@ -28,9 +28,9 @@ import org.moeaframework.core.PRNG;
 import org.moeaframework.core.population.Population;
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.Solution;
-import org.moeaframework.problem.AbstractProblem;
-import org.moeaframework.problem.MockRealProblem;
-import org.moeaframework.problem.MockRealStochasticProblem;
+import org.moeaframework.core.problem.AbstractProblem;
+import org.moeaframework.core.problem.MockRealProblem;
+import org.moeaframework.core.problem.MockRealStochasticProblem;
 
 /**
  * Tests the {@link DistributedProblem} and {@link FutureSolution} classes.

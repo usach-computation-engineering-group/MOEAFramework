@@ -24,8 +24,8 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.moeaframework.TestUtils;
 import org.moeaframework.core.population.NondominatedPopulation;
-import org.moeaframework.core.PopulationIO;
-import org.moeaframework.problem.MockRealProblem;
+import org.moeaframework.util.io.PopulationIO;
+import org.moeaframework.core.problem.MockRealProblem;
 
 /**
  * Tests the {@link R2Indicator} class.  The raw values used here were produced

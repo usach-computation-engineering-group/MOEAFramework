@@ -17,13 +17,13 @@
  */
 package org.moeaframework.core.population;
 
-import static org.moeaframework.core.NondominatedSorting.RANK_ATTRIBUTE;
+import static org.moeaframework.core.sort.NondominatedSorting.RANK_ATTRIBUTE;
 
 import java.util.Comparator;
 import java.util.Iterator;
 
-import org.moeaframework.core.FastNondominatedSorting;
-import org.moeaframework.core.NondominatedSorting;
+import org.moeaframework.core.sort.FastNondominatedSorting;
+import org.moeaframework.core.sort.NondominatedSorting;
 import org.moeaframework.core.Settings;
 import org.moeaframework.core.Solution;
 import org.moeaframework.core.comparator.CrowdingComparator;

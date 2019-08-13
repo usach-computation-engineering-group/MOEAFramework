@@ -46,7 +46,7 @@ import org.jfree.data.xy.XYSeries;
 import org.moeaframework.core.Algorithm;
 import org.moeaframework.core.Settings;
 import org.moeaframework.core.Solution;
-import org.moeaframework.core.spi.AlgorithmFactory;
+import org.moeaframework.spi.AlgorithmFactory;
 
 /**
  * A GUI for displaying the actual and approximated functions used in a

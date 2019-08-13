@@ -25,7 +25,7 @@ import org.moeaframework.Executor;
 import org.moeaframework.core.population.NondominatedPopulation;
 import org.moeaframework.core.Solution;
 import org.moeaframework.core.variable.RealVariable;
-import org.moeaframework.problem.ExternalProblem;
+import org.moeaframework.core.problem.ExternalProblem;
 
 /**
  * Similar to Example4, sockets can be used instead of standard I/O for

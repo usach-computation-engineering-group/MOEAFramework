@@ -26,12 +26,12 @@ import org.junit.runner.RunWith;
 import org.moeaframework.RetryOnTravis;
 import org.moeaframework.TestThresholds;
 import org.moeaframework.TravisRunner;
-import org.moeaframework.algorithm.jmetal.JMetalProblemAdapter;
+import org.moeaframework.core.algorithm.jmetal.JMetalProblemAdapter;
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.Solution;
 import org.moeaframework.core.operator.MeanCentricVariationTest;
 import org.moeaframework.core.operator.ParentImmutabilityTest;
-import org.moeaframework.core.spi.ProblemFactory;
+import org.moeaframework.spi.ProblemFactory;
 import org.moeaframework.core.variable.RealVariable;
 
 /**

@@ -18,7 +18,7 @@
 package org.moeaframework.analysis.sensitivity;
 
 import org.moeaframework.core.Solution;
-import org.moeaframework.problem.AbstractProblem;
+import org.moeaframework.core.problem.AbstractProblem;
 
 /**
  * A problem stub with a defined number of objectives, but no decision

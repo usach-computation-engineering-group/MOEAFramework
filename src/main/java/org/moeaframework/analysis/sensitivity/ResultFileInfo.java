@@ -25,7 +25,7 @@ import org.apache.commons.cli.OptionBuilder;
 import org.apache.commons.cli.OptionGroup;
 import org.apache.commons.cli.Options;
 import org.moeaframework.core.Problem;
-import org.moeaframework.core.spi.ProblemFactory;
+import org.moeaframework.spi.ProblemFactory;
 import org.moeaframework.util.CommandLineUtility;
 
 /**

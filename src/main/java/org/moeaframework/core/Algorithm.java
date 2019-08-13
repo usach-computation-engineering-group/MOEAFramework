@@ -20,7 +20,7 @@ package org.moeaframework.core;
 import java.io.NotSerializableException;
 import java.io.Serializable;
 
-import org.moeaframework.algorithm.AlgorithmException;
+import org.moeaframework.core.algorithm.AlgorithmException;
 import org.moeaframework.core.population.NondominatedPopulation;
 
 /**

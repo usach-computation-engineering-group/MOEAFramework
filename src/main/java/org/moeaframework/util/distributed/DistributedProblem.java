@@ -24,7 +24,7 @@ import java.util.concurrent.Future;
 
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.Solution;
-import org.moeaframework.problem.ProblemException;
+import org.moeaframework.core.problem.ProblemException;
 
 /**
  * Distributes the {@link #evaluate(Solution)} method across multiple threads,

@@ -22,7 +22,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.moeaframework.algorithm.PeriodicAction;
+import org.moeaframework.core.algorithm.PeriodicAction;
 import org.moeaframework.core.Algorithm;
 
 /**

@@ -22,7 +22,7 @@ import org.moeaframework.core.population.NondominatedPopulation;
 import org.moeaframework.core.Solution;
 import org.moeaframework.core.variable.EncodingUtils;
 import org.moeaframework.core.variable.RealVariable;
-import org.moeaframework.problem.AbstractProblem;
+import org.moeaframework.core.problem.AbstractProblem;
 
 /**
  * Demonstrates how a new problem is defined and used within the MOEA

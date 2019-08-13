@@ -22,7 +22,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.moeaframework.core.population.NondominatedPopulation;
 import org.moeaframework.core.Problem;
-import org.moeaframework.core.spi.ProblemFactory;
+import org.moeaframework.spi.ProblemFactory;
 
 /**
  * Tests the {@link QualityIndicator} class.

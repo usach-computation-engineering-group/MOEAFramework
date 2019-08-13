@@ -19,7 +19,7 @@ package org.moeaframework.examples.ga.onemax;
 
 import org.moeaframework.core.Solution;
 import org.moeaframework.core.variable.BinaryVariable;
-import org.moeaframework.problem.AbstractProblem;
+import org.moeaframework.core.problem.AbstractProblem;
 
 /**
  * The one-max problem for maximizing the number of {@code 1} bits in a binary

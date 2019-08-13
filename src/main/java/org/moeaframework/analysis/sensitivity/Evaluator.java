@@ -29,12 +29,12 @@ import org.moeaframework.core.Algorithm;
 import org.moeaframework.core.FrameworkException;
 import org.moeaframework.core.population.NondominatedPopulation;
 import org.moeaframework.core.PRNG;
-import org.moeaframework.core.PopulationIO;
+import org.moeaframework.util.io.PopulationIO;
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.indicator.QualityIndicator;
-import org.moeaframework.core.spi.AlgorithmFactory;
-import org.moeaframework.core.spi.ProblemFactory;
-import org.moeaframework.problem.TimingProblem;
+import org.moeaframework.spi.AlgorithmFactory;
+import org.moeaframework.spi.ProblemFactory;
+import org.moeaframework.core.problem.TimingProblem;
 import org.moeaframework.util.CommandLineUtility;
 import org.moeaframework.util.TypedProperties;
 

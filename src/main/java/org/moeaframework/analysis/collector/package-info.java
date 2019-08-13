@@ -159,7 +159,7 @@
  *     <td>
  *       The probability of an operator being selected by adaptive multimethod
  *       variation.  Use the string name for the operator used by
- *       {@link org.moeaframework.core.spi.OperatorFactory}, such as
+ *       {@link org.moeaframework.spi.OperatorFactory}, such as
  *       {@code "PCX"} or {@code "SBX+PM"}.
  *     </td>
  *     <td>

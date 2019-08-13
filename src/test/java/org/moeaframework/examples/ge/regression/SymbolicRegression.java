@@ -30,7 +30,7 @@ import org.apache.commons.math4.analysis.UnivariateFunction;
 import org.moeaframework.core.FrameworkException;
 import org.moeaframework.core.Solution;
 import org.moeaframework.core.variable.Grammar;
-import org.moeaframework.problem.AbstractProblem;
+import org.moeaframework.core.problem.AbstractProblem;
 import org.moeaframework.util.grammar.ContextFreeGrammar;
 import org.moeaframework.util.grammar.Parser;
 

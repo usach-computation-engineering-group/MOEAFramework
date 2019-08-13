@@ -1,6 +1,6 @@
 package org.moeaframework.core.termination;
 
-import org.moeaframework.algorithm.sa.AbstractSimulatedAnnealingAlgorithm;
+import org.moeaframework.core.algorithm.sa.AbstractSimulatedAnnealingAlgorithm;
 import org.moeaframework.core.Algorithm;
 import org.moeaframework.core.TerminationCondition;
 

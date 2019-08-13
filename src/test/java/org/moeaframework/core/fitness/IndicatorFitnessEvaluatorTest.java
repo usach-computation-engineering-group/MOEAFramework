@@ -23,7 +23,7 @@ import org.moeaframework.TestUtils;
 import org.moeaframework.core.FitnessEvaluator;
 import org.moeaframework.core.population.Population;
 import org.moeaframework.core.Problem;
-import org.moeaframework.problem.MockRealProblem;
+import org.moeaframework.core.problem.MockRealProblem;
 
 /**
  * Tests the {@link IndicatorFitnessEvaluatorTest} class.

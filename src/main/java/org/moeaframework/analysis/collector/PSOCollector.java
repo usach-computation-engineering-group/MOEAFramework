@@ -18,7 +18,7 @@
 package org.moeaframework.analysis.collector;
 
 import java.util.ArrayList;
-import org.moeaframework.algorithm.pso.AbstractPSOAlgorithm;
+import org.moeaframework.core.algorithm.pso.AbstractPSOAlgorithm;
 import org.moeaframework.core.Solution;
 
 /**

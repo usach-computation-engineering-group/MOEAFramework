@@ -17,7 +17,7 @@
  */
 package org.moeaframework.core.comparator;
 
-import static org.moeaframework.core.FastNondominatedSorting.RANK_ATTRIBUTE;
+import static org.moeaframework.core.sort.FastNondominatedSorting.RANK_ATTRIBUTE;
 
 import java.io.Serializable;
 import java.util.Comparator;

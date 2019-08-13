@@ -22,7 +22,7 @@ import java.util.Properties;
 import org.moeaframework.core.Algorithm;
 import org.moeaframework.core.population.NondominatedPopulation;
 import org.moeaframework.core.Problem;
-import org.moeaframework.core.spi.AlgorithmFactory;
+import org.moeaframework.spi.AlgorithmFactory;
 
 /**
  * Example of binary optimization on the {@link OneMax} problem.  The goal of

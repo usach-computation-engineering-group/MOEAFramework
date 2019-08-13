@@ -19,7 +19,7 @@ package org.moeaframework.examples.ga.LOTZ;
 
 import org.moeaframework.core.Solution;
 import org.moeaframework.core.variable.EncodingUtils;
-import org.moeaframework.problem.AbstractProblem;
+import org.moeaframework.core.problem.AbstractProblem;
 
 /**
  * The biobjective leading ones, trailing zeros (LOTZ) problem.

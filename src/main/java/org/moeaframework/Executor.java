@@ -26,13 +26,13 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import org.moeaframework.algorithm.Checkpoints;
+import org.moeaframework.core.algorithm.Checkpoints;
 import org.moeaframework.core.Algorithm;
 import org.moeaframework.core.population.NondominatedPopulation;
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.TerminationCondition;
-import org.moeaframework.core.spi.AlgorithmFactory;
-import org.moeaframework.core.spi.ProblemFactory;
+import org.moeaframework.spi.AlgorithmFactory;
+import org.moeaframework.spi.ProblemFactory;
 import org.moeaframework.core.termination.CompoundTerminationCondition;
 import org.moeaframework.core.termination.MaxElapsedTime;
 import org.moeaframework.core.termination.MaxFunctionEvaluations;

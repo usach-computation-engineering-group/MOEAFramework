@@ -37,9 +37,9 @@ import org.moeaframework.core.EvolutionaryAlgorithm;
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.Settings;
 import org.moeaframework.core.Solution;
-import org.moeaframework.core.spi.AlgorithmFactory;
+import org.moeaframework.spi.AlgorithmFactory;
 import org.moeaframework.core.variable.EncodingUtils;
-import org.moeaframework.problem.AbstractProblem;
+import org.moeaframework.core.problem.AbstractProblem;
 
 /**
  * Demonstration of optimizing a TSP problem using the MOEA Framework

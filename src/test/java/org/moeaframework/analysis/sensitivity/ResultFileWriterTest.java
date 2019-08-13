@@ -35,7 +35,7 @@ import org.moeaframework.core.variable.BinaryVariable;
 import org.moeaframework.core.variable.Grammar;
 import org.moeaframework.core.variable.Permutation;
 import org.moeaframework.core.variable.RealVariable;
-import org.moeaframework.problem.AbstractProblem;
+import org.moeaframework.core.problem.AbstractProblem;
 import org.moeaframework.util.TypedProperties;
 
 /**

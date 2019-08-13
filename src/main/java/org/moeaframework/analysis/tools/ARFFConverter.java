@@ -35,7 +35,7 @@ import org.moeaframework.core.population.NondominatedPopulation;
 import org.moeaframework.core.population.Population;
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.Solution;
-import org.moeaframework.core.spi.ProblemFactory;
+import org.moeaframework.spi.ProblemFactory;
 import org.moeaframework.core.variable.EncodingUtils;
 import org.moeaframework.core.variable.RealVariable;
 import org.moeaframework.util.CommandLineUtility;

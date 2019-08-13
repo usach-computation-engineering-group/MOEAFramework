@@ -25,11 +25,11 @@ import org.apache.commons.cli.OptionGroup;
 import org.apache.commons.cli.Options;
 import org.moeaframework.core.FrameworkException;
 import org.moeaframework.core.population.NondominatedPopulation;
-import org.moeaframework.core.PopulationIO;
+import org.moeaframework.util.io.PopulationIO;
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.Solution;
 import org.moeaframework.core.indicator.QualityIndicator;
-import org.moeaframework.core.spi.ProblemFactory;
+import org.moeaframework.spi.ProblemFactory;
 import org.moeaframework.util.CommandLineUtility;
 import org.moeaframework.util.TypedProperties;
 

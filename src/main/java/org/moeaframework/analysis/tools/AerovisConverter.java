@@ -34,7 +34,7 @@ import org.moeaframework.analysis.sensitivity.ResultFileReader;
 import org.moeaframework.core.population.Population;
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.Solution;
-import org.moeaframework.core.spi.ProblemFactory;
+import org.moeaframework.spi.ProblemFactory;
 import org.moeaframework.util.CommandLineUtility;
 
 /**

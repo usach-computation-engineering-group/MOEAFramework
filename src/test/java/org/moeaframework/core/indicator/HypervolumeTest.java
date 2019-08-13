@@ -25,7 +25,7 @@ import org.moeaframework.core.PRNG;
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.Settings;
 import org.moeaframework.core.Solution;
-import org.moeaframework.core.spi.ProblemFactory;
+import org.moeaframework.spi.ProblemFactory;
 
 /**
  * Tests the {@link Hypervolume} class against the JMetal implementation. Due

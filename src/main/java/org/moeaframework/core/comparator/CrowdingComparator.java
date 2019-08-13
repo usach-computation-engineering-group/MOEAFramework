@@ -17,7 +17,7 @@
  */
 package org.moeaframework.core.comparator;
 
-import static org.moeaframework.core.FastNondominatedSorting.CROWDING_ATTRIBUTE;
+import static org.moeaframework.core.sort.FastNondominatedSorting.CROWDING_ATTRIBUTE;
 
 import java.io.Serializable;
 import java.util.Comparator;

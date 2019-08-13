@@ -29,9 +29,9 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.moeaframework.core.population.EpsilonBoxDominanceArchive;
 import org.moeaframework.core.population.NondominatedPopulation;
-import org.moeaframework.core.PopulationIO;
-import org.moeaframework.core.spi.AlgorithmFactoryTestWrapper;
-import org.moeaframework.core.spi.ProblemFactoryTestWrapper;
+import org.moeaframework.util.io.PopulationIO;
+import org.moeaframework.spi.AlgorithmFactoryTestWrapper;
+import org.moeaframework.spi.ProblemFactoryTestWrapper;
 
 /**
  * Tests the {@link Analyzer} class.

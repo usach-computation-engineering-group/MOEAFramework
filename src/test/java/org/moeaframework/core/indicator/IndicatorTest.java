@@ -23,7 +23,7 @@ import org.moeaframework.core.population.Population;
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.Solution;
 import org.moeaframework.core.operator.RandomInitialization;
-import org.moeaframework.core.spi.ProblemFactory;
+import org.moeaframework.spi.ProblemFactory;
 
 /**
  * Abstract class for testing indicators.

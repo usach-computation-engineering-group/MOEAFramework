@@ -28,8 +28,8 @@ import org.moeaframework.core.population.NondominatedPopulation;
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.indicator.Contribution;
 import org.moeaframework.core.indicator.QualityIndicator;
-import org.moeaframework.core.spi.ProblemFactory;
-import org.moeaframework.core.spi.ProblemFactoryTestWrapper;
+import org.moeaframework.spi.ProblemFactory;
+import org.moeaframework.spi.ProblemFactoryTestWrapper;
 
 /**
  * Tests the {@link ExtractData} class.

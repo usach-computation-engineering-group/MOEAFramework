@@ -39,7 +39,7 @@ import org.moeaframework.core.Variation;
 import org.moeaframework.core.comparator.ParetoDominanceComparator;
 import org.moeaframework.core.operator.TournamentSelection;
 import org.moeaframework.core.operator.real.UM;
-import org.moeaframework.problem.MockRealProblem;
+import org.moeaframework.core.problem.MockRealProblem;
 
 /**
  * Tests the {@link Instrumenter} class.

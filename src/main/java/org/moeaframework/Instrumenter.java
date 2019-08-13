@@ -28,7 +28,7 @@ import java.util.Set;
 import java.util.Stack;
 
 import org.apache.commons.lang3.StringUtils;
-import org.moeaframework.algorithm.PeriodicAction.FrequencyType;
+import org.moeaframework.core.algorithm.PeriodicAction.FrequencyType;
 import org.moeaframework.analysis.collector.Accumulator;
 import org.moeaframework.analysis.collector.AdaptiveMultimethodVariationCollector;
 import org.moeaframework.analysis.collector.AdaptiveTimeContinuationCollector;
@@ -53,7 +53,7 @@ import org.moeaframework.core.indicator.R1Indicator;
 import org.moeaframework.core.indicator.R2Indicator;
 import org.moeaframework.core.indicator.R3Indicator;
 import org.moeaframework.core.indicator.Spacing;
-import org.moeaframework.core.spi.ProblemFactory;
+import org.moeaframework.spi.ProblemFactory;
 
 /**
  * Instruments algorithms with {@link Collector}s which record information about

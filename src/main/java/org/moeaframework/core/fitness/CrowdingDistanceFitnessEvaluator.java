@@ -17,7 +17,7 @@
  */
 package org.moeaframework.core.fitness;
 
-import org.moeaframework.core.FastNondominatedSorting;
+import org.moeaframework.core.sort.FastNondominatedSorting;
 import org.moeaframework.core.FitnessEvaluator;
 import org.moeaframework.core.population.Population;
 import org.moeaframework.core.Solution;

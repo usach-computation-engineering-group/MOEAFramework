@@ -22,8 +22,8 @@ import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.moeaframework.core.spi.AlgorithmFactoryTestWrapper;
-import org.moeaframework.core.spi.ProblemFactoryTestWrapper;
+import org.moeaframework.spi.AlgorithmFactoryTestWrapper;
+import org.moeaframework.spi.ProblemFactoryTestWrapper;
 
 /**
  * Tests the {@link Executor} class.

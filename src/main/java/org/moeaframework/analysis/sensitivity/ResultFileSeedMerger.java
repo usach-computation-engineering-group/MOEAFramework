@@ -29,7 +29,7 @@ import org.apache.commons.cli.Options;
 import org.moeaframework.core.population.EpsilonBoxDominanceArchive;
 import org.moeaframework.core.population.NondominatedPopulation;
 import org.moeaframework.core.Problem;
-import org.moeaframework.core.spi.ProblemFactory;
+import org.moeaframework.spi.ProblemFactory;
 import org.moeaframework.util.CommandLineUtility;
 import org.moeaframework.util.TypedProperties;
 

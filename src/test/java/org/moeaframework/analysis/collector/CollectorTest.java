@@ -23,8 +23,8 @@ import org.junit.Assert;
 import org.moeaframework.Instrumenter;
 import org.moeaframework.core.Algorithm;
 import org.moeaframework.core.Problem;
-import org.moeaframework.core.spi.AlgorithmFactory;
-import org.moeaframework.core.spi.ProblemFactory;
+import org.moeaframework.spi.AlgorithmFactory;
+import org.moeaframework.spi.ProblemFactory;
 
 /**
  * Helper functions for testing collectors.  This primarily ensures that the

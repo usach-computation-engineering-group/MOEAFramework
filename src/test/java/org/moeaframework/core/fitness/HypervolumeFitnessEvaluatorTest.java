@@ -24,15 +24,15 @@ import jmetal.metaheuristics.ibea.IBEA;
 
 import org.junit.Test;
 import org.moeaframework.TestUtils;
-import org.moeaframework.algorithm.jmetal.JMetalProblemAdapter;
+import org.moeaframework.core.algorithm.jmetal.JMetalProblemAdapter;
 import org.moeaframework.core.FitnessEvaluator;
 import org.moeaframework.core.Initialization;
 import org.moeaframework.core.population.Population;
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.Solution;
 import org.moeaframework.core.operator.RandomInitialization;
-import org.moeaframework.core.spi.ProblemFactory;
-import org.moeaframework.problem.MockRealProblem;
+import org.moeaframework.spi.ProblemFactory;
+import org.moeaframework.core.problem.MockRealProblem;
 
 /**
  * Tests the {@link HypervolumeFitnessEvaluator} class.

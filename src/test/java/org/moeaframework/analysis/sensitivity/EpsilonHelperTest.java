@@ -22,7 +22,7 @@ import org.junit.Test;
 import org.moeaframework.TestUtils;
 import org.moeaframework.core.population.EpsilonBoxDominanceArchive;
 import org.moeaframework.core.population.NondominatedPopulation;
-import org.moeaframework.core.spi.ProblemFactory;
+import org.moeaframework.spi.ProblemFactory;
 
 /**
  * Tests the {@link EpsilonHelper} class.

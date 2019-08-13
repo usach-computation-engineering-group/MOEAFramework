@@ -17,9 +17,9 @@
  */
 package org.moeaframework.analysis.collector;
 
-import org.moeaframework.algorithm.AdaptiveTimeContinuation;
-import org.moeaframework.algorithm.RestartEvent;
-import org.moeaframework.algorithm.RestartListener;
+import org.moeaframework.core.algorithm.AdaptiveTimeContinuation;
+import org.moeaframework.core.algorithm.RestartEvent;
+import org.moeaframework.core.algorithm.RestartListener;
 
 /**
  * Collects the number of restart events resulting from

@@ -25,7 +25,7 @@ import org.junit.Assume;
 import org.junit.Test;
 import org.moeaframework.TestUtils;
 import org.moeaframework.analysis.sensitivity.ResultFileReader;
-import org.moeaframework.core.spi.ProblemFactory;
+import org.moeaframework.spi.ProblemFactory;
 
 /**
  * Tests the {@link Solve} class.

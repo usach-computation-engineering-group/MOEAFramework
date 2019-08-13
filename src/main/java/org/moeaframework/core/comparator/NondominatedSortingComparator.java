@@ -20,7 +20,7 @@ package org.moeaframework.core.comparator;
 import java.io.Serializable;
 import java.util.Comparator;
 
-import org.moeaframework.core.FastNondominatedSorting;
+import org.moeaframework.core.sort.FastNondominatedSorting;
 import org.moeaframework.core.Solution;
 
 /**

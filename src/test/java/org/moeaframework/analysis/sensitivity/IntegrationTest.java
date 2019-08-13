@@ -25,10 +25,10 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.moeaframework.TestUtils;
-import org.moeaframework.core.spi.AlgorithmFactory;
-import org.moeaframework.core.spi.ProblemFactory;
-import org.moeaframework.core.spi.AlgorithmFactoryTestWrapper;
-import org.moeaframework.core.spi.ProblemFactoryTestWrapper;
+import org.moeaframework.spi.AlgorithmFactory;
+import org.moeaframework.spi.ProblemFactory;
+import org.moeaframework.spi.AlgorithmFactoryTestWrapper;
+import org.moeaframework.spi.ProblemFactoryTestWrapper;
 import org.moeaframework.util.ReferenceSetMerger;
 
 /**

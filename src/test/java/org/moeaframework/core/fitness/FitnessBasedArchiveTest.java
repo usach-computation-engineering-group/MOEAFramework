@@ -30,7 +30,7 @@
 //import org.moeaframework.core.FitnessEvaluator;
 //import org.moeaframework.core.PRNG;
 //import org.moeaframework.core.Problem;
-//import org.moeaframework.problem.MockRealProblem;
+//import org.moeaframework.core.problem.MockRealProblem;
 //
 //public class FitnessBasedArchiveTest {
 //	

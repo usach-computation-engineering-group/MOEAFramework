@@ -27,7 +27,7 @@ import java.io.Reader;
 
 import org.moeaframework.core.Solution;
 import org.moeaframework.core.variable.Program;
-import org.moeaframework.problem.AbstractProblem;
+import org.moeaframework.core.problem.AbstractProblem;
 import org.moeaframework.util.tree.Environment;
 import org.moeaframework.util.tree.IfElse;
 import org.moeaframework.util.tree.Rules;

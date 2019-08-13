@@ -25,10 +25,10 @@ import org.apache.commons.lang3.reflect.ConstructorUtils;
 import org.moeaframework.core.population.EpsilonBoxDominanceArchive;
 import org.moeaframework.core.FrameworkException;
 import org.moeaframework.core.population.NondominatedPopulation;
-import org.moeaframework.core.PopulationIO;
+import org.moeaframework.util.io.PopulationIO;
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.comparator.ParetoDominanceComparator;
-import org.moeaframework.core.spi.ProblemFactory;
+import org.moeaframework.spi.ProblemFactory;
 
 /**
  * Provides builder methods for instantiating problems and their reference sets.

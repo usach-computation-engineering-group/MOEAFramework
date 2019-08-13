@@ -28,7 +28,7 @@ import java.util.List;
 import org.moeaframework.core.FrameworkException;
 import org.moeaframework.core.population.NondominatedPopulation;
 import org.moeaframework.core.population.Population;
-import org.moeaframework.core.PopulationIO;
+import org.moeaframework.util.io.PopulationIO;
 import org.moeaframework.core.Problem;
 import org.moeaframework.core.Settings;
 import org.moeaframework.core.Solution;
