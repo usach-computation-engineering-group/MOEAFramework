@@ -25,8 +25,8 @@ import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
 
-import org.moeaframework.algorithm.single.MinMaxObjectiveComparator;
-import org.moeaframework.algorithm.single.VectorAngleDistanceScalingComparator;
+import org.moeaframework.core.comparator.single.MinMaxObjectiveComparator;
+import org.moeaframework.core.comparator.single.VectorAngleDistanceScalingComparator;
 import org.moeaframework.core.PRNG;
 import org.moeaframework.core.Population;
 import org.moeaframework.core.Solution;

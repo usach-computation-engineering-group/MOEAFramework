@@ -25,6 +25,7 @@ import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.moeaframework.TestUtils;
+import org.moeaframework.algorithm.evolutionary.NSGAII;
 import org.moeaframework.analysis.collector.Accumulator;
 import org.moeaframework.analysis.collector.IndicatorCollector;
 import org.moeaframework.analysis.collector.InstrumentedAlgorithm;

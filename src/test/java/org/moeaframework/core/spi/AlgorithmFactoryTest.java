@@ -21,7 +21,7 @@ import java.util.Properties;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.moeaframework.algorithm.AbstractEvolutionaryAlgorithm;
+import org.moeaframework.algorithm.evolutionary.AbstractEvolutionaryAlgorithm;
 import org.moeaframework.core.Algorithm;
 import org.moeaframework.core.Population;
 import org.moeaframework.core.Problem;
