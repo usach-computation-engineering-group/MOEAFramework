@@ -1308,7 +1308,7 @@ public class AMPLProblem extends AbstractProblem {
 		Solution solution = new Solution(this.numberOfVariables, this.numberOfObjectives, this.numberOfConstraints);
 		for(int i = 0; i < 126; i++)
 			solution.setVariable(i, EncodingUtils.newInt(0, Integer.MAX_VALUE));
-		for(int i = 0; i < 176; i++)
+		for(int i = 126; i < 302; i++)
 			solution.setVariable(i, EncodingUtils.newBinaryInt(0, 1));
 		return solution;
 	}
