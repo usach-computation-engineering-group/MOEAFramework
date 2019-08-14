@@ -17,11 +17,11 @@
  */
 package org.moeaframework.core.problem;
 
-import java.io.File;
 import java.io.IOException;
 
 import org.junit.Before;
 import org.junit.Test;
+import org.moeaframework.Executor;
 
 /**
  * Tests the {@link AMPLProblem} class without the need for an external
@@ -29,13 +29,15 @@ import org.junit.Test;
  */
 public class AMPLProblemTest {
 	
-	@SuppressWarnings("unused")
 	private AMPLProblem problem;	
 	
 	@Before
 	public void setUp() throws IOException {
-		File modFile = new File(this.getClass().getClassLoader().getResource("natives/ampl/models/bigprod.mod").getFile());
-		problem = new AMPLProblem(modFile);
+		problem = new AMPLProblem(302, 1, 407);
+		Executor executor = new Executor().withProblem(problem).distributeOnAllCores()
+				.withProperty("populationSize", 100000)
+				.withProperty("operator", "sbx+hux+pm+bf").withMaxEvaluations(100000).withAlgorithm("GA");
+		executor.run();		
 	}
 	
 	@Test
