@@ -2,6 +2,7 @@ package org.moeaframework.core.problem;
 
 import org.moeaframework.core.Solution;
 import org.moeaframework.core.variable.EncodingUtils;
+import org.moeaframework.core.variable.RealVariable;
 import org.moeaframework.core.variable.BinaryIntegerVariable;
 
 public class AMPLProblem extends AbstractProblem {
@@ -29,7 +30,7 @@ public class AMPLProblem extends AbstractProblem {
 			for(int y = 0; y < 7; y++) {
 				for(int w = 0; w < 2; w++) {
 					for(int g = 0; g < 3; g++) {
-						v[z][y][w][g] = ((BinaryIntegerVariable) solution.getVariable(countInt)).getValue();
+						v[z][y][w][g] = (int) ((RealVariable) solution.getVariable(countInt)).getValue();
 						countInt++;
 					}
 				}
@@ -40,7 +41,7 @@ public class AMPLProblem extends AbstractProblem {
 		for(int y = 0; y < 7; y++) {
 			for(int w = 0; w < 3; w++) {
 				for(int g = 0; g < 2; g++) {
-					u[y][w][g] = ((BinaryIntegerVariable) solution.getVariable(countInt)).getValue();
+					u[y][w][g] = (int) ((RealVariable) solution.getVariable(countInt)).getValue();
 					countInt++;
 				}
 			}
@@ -1307,7 +1308,7 @@ public class AMPLProblem extends AbstractProblem {
 	public Solution newSolution() {
 		Solution solution = new Solution(this.numberOfVariables, this.numberOfObjectives, this.numberOfConstraints);
 		for(int i = 0; i < 126; i++)
-			solution.setVariable(i, EncodingUtils.newInt(0, Integer.MAX_VALUE));
+			solution.setVariable(i, EncodingUtils.newInt(0, 100000));
 		for(int i = 126; i < 302; i++)
 			solution.setVariable(i, EncodingUtils.newBinaryInt(0, 1));
 		return solution;
