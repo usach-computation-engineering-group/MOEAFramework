@@ -40,15 +40,15 @@ public class AMPLProblemTest {
 		problem = new AMPLProblem(302, 1, 407);
 		NondominatedPopulation referenceSet = new NondominatedPopulation();
 		Executor executor = new Executor().withProblem(problem).distributeOnAllCores()
-				.withProperty("populationSize", 100000)
-				.withProperty("operator", "sbx+hux+pm+bf").withMaxEvaluations(100000).withAlgorithm("GA");
+				.withProperty("populationSize", 1000000000)
+				.withProperty("operator", "sbx+hux+pm+bf").withMaxEvaluations(1000000000).withAlgorithm("GA");
 		referenceSet.addAll(executor.run());
 		// Store returned Pareto Fronts in your $HOME folder
 		try {
 			PopulationIO
 					.writeObjectives(
 							new File(
-									System.getProperty("user.home") + File.separator + "VRP-PLUS_"
+									System.getProperty("user.home") + File.separator + "VRP-PLUS"
 											+ "-" + Instant.now().getEpochSecond() + ".pf"),
 							referenceSet);
 		} catch (IOException e) {
