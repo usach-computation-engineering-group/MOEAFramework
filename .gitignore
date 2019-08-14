@@ -5,5 +5,4 @@ dist/
 test-results/
 javadoc/
 maven/
-*.exe
 *~

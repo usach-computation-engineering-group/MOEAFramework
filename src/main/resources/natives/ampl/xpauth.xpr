@@ -1,0 +1,7 @@
+license expiry="never" features="Hyper OptLib OptJava Integer Barrier \
+	Quadratic Network ParaBar=50 ParaMIP=50 BCL BCLJava" \
+	fico_xpress_release="8.6" hostid="any" oem="Xpress for AMPL" \
+	platform="any" release="2019" static="uncounted" \
+	terminal-services sig="c544 bb69 3e24 f043 acaa d7f4 3fd9 8462 \
+	2850 7a0b 38f0 c362 ebca de71 79c6 3991 7292 e2a9 5b61 37df \
+	4c69 7997 597c 9001 9feb ee41 0d24 7f86 7fe9 8152 6a72 4262"
