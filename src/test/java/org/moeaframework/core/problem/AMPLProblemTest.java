@@ -29,13 +29,13 @@ import org.junit.Test;
  */
 public class AMPLProblemTest {
 	
+	@SuppressWarnings("unused")
 	private AMPLProblem problem;	
 	
 	@Before
 	public void setUp() throws IOException {
-		File modFile = new File(this.getClass().getClassLoader().getResource("prod.mod").getFile());
-		File datFile = new File(this.getClass().getClassLoader().getResource("prod.dat").getFile());
-		problem = new AMPLProblem(modFile, datFile);
+		File modFile = new File(this.getClass().getClassLoader().getResource("natives/ampl/models/bigprod.mod").getFile());
+		problem = new AMPLProblem(modFile);
 	}
 	
 	@Test
