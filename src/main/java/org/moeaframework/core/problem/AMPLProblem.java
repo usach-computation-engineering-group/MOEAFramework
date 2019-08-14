@@ -1308,7 +1308,7 @@ public class AMPLProblem extends AbstractProblem {
 	public Solution newSolution() {
 		Solution solution = new Solution(this.numberOfVariables, this.numberOfObjectives, this.numberOfConstraints);
 		for(int i = 0; i < 126; i++)
-			solution.setVariable(i, EncodingUtils.newInt(0, 100000));
+			solution.setVariable(i, EncodingUtils.newInt(0, 100)); // Q: Max capacity
 		for(int i = 126; i < 302; i++)
 			solution.setVariable(i, EncodingUtils.newBinaryInt(0, 1));
 		return solution;
