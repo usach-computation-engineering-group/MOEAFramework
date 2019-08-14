@@ -17,11 +17,15 @@
  */
 package org.moeaframework.core.problem;
 
+import java.io.File;
 import java.io.IOException;
+import java.time.Instant;
 
 import org.junit.Before;
 import org.junit.Test;
 import org.moeaframework.Executor;
+import org.moeaframework.core.population.NondominatedPopulation;
+import org.moeaframework.util.io.PopulationIO;
 
 /**
  * Tests the {@link AMPLProblem} class without the need for an external
@@ -34,10 +38,22 @@ public class AMPLProblemTest {
 	@Before
 	public void setUp() throws IOException {
 		problem = new AMPLProblem(302, 1, 407);
+		NondominatedPopulation referenceSet = new NondominatedPopulation();
 		Executor executor = new Executor().withProblem(problem).distributeOnAllCores()
 				.withProperty("populationSize", 100000)
 				.withProperty("operator", "sbx+hux+pm+bf").withMaxEvaluations(100000).withAlgorithm("GA");
-		executor.run();		
+		referenceSet.addAll(executor.run());
+		// Store returned Pareto Fronts in your $HOME folder
+		try {
+			PopulationIO
+					.writeObjectives(
+							new File(
+									System.getProperty("user.home") + File.separator + "VRP-PLUS_"
+											+ "-" + Instant.now().getEpochSecond() + ".pf"),
+							referenceSet);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 	
 	@Test
