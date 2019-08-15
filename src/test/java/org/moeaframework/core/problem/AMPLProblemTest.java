@@ -40,8 +40,8 @@ public class AMPLProblemTest {
 		problem = new AMPLProblem(302, 1, 407);
 		NondominatedPopulation referenceSet = new NondominatedPopulation();
 		Executor executor = new Executor().withProblem(problem).distributeOnAllCores()
-				.withProperty("populationSize", 100000).withProperty("operator", "hux+bf")
-				.withMaxEvaluations(1000000).withAlgorithm("GA");
+				.withProperty("populationSize", 4832).withProperty("operator", "hux+bf")
+				.withMaxEvaluations(Integer.MAX_VALUE).withAlgorithm("GA");
 		referenceSet.addAll(executor.run());
 		// Store returned Pareto Fronts in your $HOME folder
 		try {
