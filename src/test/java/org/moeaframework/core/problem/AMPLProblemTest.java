@@ -38,6 +38,10 @@ public class AMPLProblemTest {
 	@Before
 	public void setUp() throws IOException {
 		problem = new AMPLProblem(302, 1, 407);
+	}
+	
+	@Test
+	public void testNormalUse() throws Exception {
 		NondominatedPopulation referenceSet = new NondominatedPopulation();
 		Executor executor = new Executor().withProblem(problem).distributeOnAllCores()
 				.withProperty("populationSize", 4832).withProperty("operator", "hux+bf")
@@ -54,9 +58,5 @@ public class AMPLProblemTest {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-	}
-	
-	@Test
-	public void testNormalUse() throws Exception {
 	}	
 }
