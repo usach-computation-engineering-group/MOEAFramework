@@ -2,7 +2,7 @@ package org.moeaframework.core.problem;
 
 import org.moeaframework.core.Solution;
 import org.moeaframework.core.variable.EncodingUtils;
-import org.moeaframework.core.variable.RealVariable;
+import org.moeaframework.core.variable.BinaryVariable;
 import org.moeaframework.core.variable.BinaryIntegerVariable;
 
 public class AMPLProblem extends AbstractProblem {
@@ -30,7 +30,7 @@ public class AMPLProblem extends AbstractProblem {
 			for(int y = 0; y < 7; y++) {
 				for(int w = 0; w < 2; w++) {
 					for(int g = 0; g < 3; g++) {
-						v[z][y][w][g] = (int) ((RealVariable) solution.getVariable(countInt)).getValue();
+						v[z][y][w][g] = ((BinaryIntegerVariable) solution.getVariable(countInt)).getValue();
 						countInt++;
 					}
 				}
@@ -41,7 +41,7 @@ public class AMPLProblem extends AbstractProblem {
 		for(int y = 0; y < 7; y++) {
 			for(int w = 0; w < 3; w++) {
 				for(int g = 0; g < 2; g++) {
-					u[y][w][g] = (int) ((RealVariable) solution.getVariable(countInt)).getValue();
+					u[y][w][g] = ((BinaryIntegerVariable) solution.getVariable(countInt)).getValue();
 					countInt++;
 				}
 			}
@@ -51,7 +51,7 @@ public class AMPLProblem extends AbstractProblem {
 		for(int y = 0; y < 7; y++) {
 			for(int w = 0; w < 7; w++) {
 				for(int g = 0; g < 3; g++) {
-					x[y][w][g] = ((BinaryIntegerVariable) solution.getVariable(countInt)).getValue();
+					x[y][w][g] = (((BinaryVariable) solution.getVariable(countInt)).get(0) ? 1 : 0);
 					countInt++;
 				}
 			}
@@ -59,20 +59,20 @@ public class AMPLProblem extends AbstractProblem {
 		
 		for(int w = 0; w < 7; w++) {
 			for(int g = 0; g < 3; g++) {
-				y[w][g] = ((BinaryIntegerVariable) solution.getVariable(countInt)).getValue();
+				y[w][g] = (((BinaryVariable) solution.getVariable(countInt)).get(0) ? 1 : 0);
 				countInt++;
 			}
 		}
 		
 		for(int w = 0; w < 2; w++) {
 			for(int g = 0; g < 3; g++) {
-				f[w][g] = ((BinaryIntegerVariable) solution.getVariable(countInt)).getValue();
+				f[w][g] = (((BinaryVariable) solution.getVariable(countInt)).get(0) ? 1 : 0);
 				countInt++;
 			}
 		}
 		
 		for(int g = 0; g < 2; g++) {
-			z[g] = ((BinaryIntegerVariable) solution.getVariable(countInt)).getValue();
+			z[g] = (((BinaryVariable) solution.getVariable(countInt)).get(0) ? 1 : 0);
 			countInt++;
 		}
 		
@@ -1308,9 +1308,9 @@ public class AMPLProblem extends AbstractProblem {
 	public Solution newSolution() {
 		Solution solution = new Solution(this.numberOfVariables, this.numberOfObjectives, this.numberOfConstraints);
 		for(int i = 0; i < 126; i++)
-			solution.setVariable(i, EncodingUtils.newInt(0, 100)); // Q: Max capacity
+			solution.setVariable(i, EncodingUtils.newBinaryInt(0, 100)); // Q: Max capacity
 		for(int i = 126; i < 302; i++)
-			solution.setVariable(i, EncodingUtils.newBinaryInt(0, 1));
+			solution.setVariable(i, EncodingUtils.newBoolean());
 		return solution;
 	}
 }
