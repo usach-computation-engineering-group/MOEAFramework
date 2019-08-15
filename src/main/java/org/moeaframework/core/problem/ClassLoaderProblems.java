@@ -31,6 +31,7 @@ import org.moeaframework.spi.ProviderNotFoundException;
  */
 public class ClassLoaderProblems extends ProblemProvider {
 
+	@SuppressWarnings("deprecation")
 	@Override
 	public Problem getProblem(String name) {
 		try {

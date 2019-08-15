@@ -17,6 +17,7 @@
  */
 package org.moeaframework.analysis.sensitivity;
 
+import java.io.IOException;
 import java.io.StringReader;
 
 import org.junit.Assert;
@@ -59,6 +60,11 @@ public class MatrixReaderTest {
 		Assert.assertArrayEquals(new double[] { 0, 10, 100 }, reader.next(), 
 				Settings.EPS);
 		Assert.assertFalse(reader.hasNext());
+		try {
+			reader.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 	
 	@Test
@@ -72,6 +78,11 @@ public class MatrixReaderTest {
 		Assert.assertArrayEquals(new double[] { 0, 10, 100 }, reader.next(), 
 				Settings.EPS);
 		Assert.assertFalse(reader.hasNext());
+		try {
+			reader.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 	
 	@Test
@@ -86,6 +97,11 @@ public class MatrixReaderTest {
 		Assert.assertArrayEquals(new double[] { 0, 10, 100 }, reader.next(), 
 				Settings.EPS);
 		Assert.assertFalse(reader.hasNext());
+		try {
+			reader.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 	
 	@Test(expected = Exception.class)
@@ -93,6 +109,11 @@ public class MatrixReaderTest {
 		MatrixReader reader = new MatrixReader(new StringReader(FIXED), 2);
 		
 		Assert.assertFalse(reader.hasNext());
+		try {
+			reader.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 	
 	@Test
@@ -109,6 +130,11 @@ public class MatrixReaderTest {
 		Assert.assertArrayEquals(new double[] { 0, 10, 100 }, reader.next(), 
 				Settings.EPS);
 		Assert.assertFalse(reader.hasNext());
+		try {
+			reader.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 	
 	@Test(expected = Exception.class)
@@ -119,6 +145,11 @@ public class MatrixReaderTest {
 		Assert.assertArrayEquals(new double[] { 0.0, 0.1, -0.1 }, reader.next(),
 				Settings.EPS);
 		Assert.assertFalse(reader.hasNext());
+		try {
+			reader.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 	
 	@Test(expected = Exception.class)
@@ -126,6 +157,11 @@ public class MatrixReaderTest {
 		MatrixReader reader = new MatrixReader(new StringReader(VARIABLE), 2);
 		
 		Assert.assertFalse(reader.hasNext());
+		try {
+			reader.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 
 	@Test(expected = Exception.class)
@@ -136,6 +172,11 @@ public class MatrixReaderTest {
 		Assert.assertArrayEquals(new double[] { 0.0, 0.1, -0.1 }, reader.next(),
 				Settings.EPS);
 		Assert.assertFalse(reader.hasNext());
+		try {
+			reader.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 	
 	@Test(expected = Exception.class)
@@ -147,6 +188,11 @@ public class MatrixReaderTest {
 		Assert.assertArrayEquals(new double[] { 0.0, 0.1, -0.1 }, reader.next(),
 				Settings.EPS);
 		Assert.assertFalse(reader.hasNext());
+		try {
+			reader.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 
 }

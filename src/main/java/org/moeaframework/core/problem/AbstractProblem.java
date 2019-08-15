@@ -100,6 +100,7 @@ public abstract class AbstractProblem implements Problem {
 	 * Calls {@code close()} if this problem has not yet been closed prior to
 	 * finalization.
 	 */
+	@SuppressWarnings("deprecation")
 	@Override
 	protected void finalize() throws Throwable {
 		if (!isClosed) {

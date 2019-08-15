@@ -32,7 +32,7 @@ import javax.swing.AbstractListModel;
  * @param <T> the type of entry stored in this list model
  */
 public class SortedListModel<T extends Comparable<T>> extends 
-AbstractListModel {
+AbstractListModel<Object> {
 	
 	private static final long serialVersionUID = 833503105693282917L;
 	

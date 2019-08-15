@@ -63,6 +63,7 @@ public class PropertiesProblems extends ProblemProvider {
 		return name;
 	}
 
+	@SuppressWarnings("deprecation")
 	@Override
 	public Problem getProblem(String name) {
 		name = getCaseSensitiveProblemName(name);

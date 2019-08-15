@@ -86,7 +86,7 @@ ControllerListener {
 	/**
 	 * The list of all available metrics.
 	 */
-	private JList metricList;
+	private JList<Object> metricList;
 	
 	/**
 	 * The underlying data model storing all available results.
@@ -127,12 +127,12 @@ ControllerListener {
 	/**
 	 * The control for setting the algorithm used by evaluation jobs.
 	 */
-	private JComboBox algorithm;
+	private JComboBox<?> algorithm;
 	
 	/**
 	 * The control for setting the problem used by evaluation jobs.
 	 */
-	private JComboBox problem;
+	private JComboBox<?> problem;
 	
 	/**
 	 * The control for setting the number of seeds used by evaluation jobs.
@@ -207,7 +207,7 @@ ControllerListener {
 		actionFactory = new ActionFactory(this, controller);
 		resultListModel = new SortedListModel<ResultKey>();
 		metricListModel = new SortedListModel<String>();
-		metricList = new JList(metricListModel);
+		metricList = new JList<Object>(metricListModel);
 		paintHelper = new PaintHelper();
 		chartContainer = new JPanel();
 		
@@ -319,7 +319,7 @@ ControllerListener {
 				algorithmNames);
 		Collections.sort(sortedAlgorithmNames);
 		
-		algorithm = new JComboBox(sortedAlgorithmNames.toArray());
+		algorithm = new JComboBox<Object>(sortedAlgorithmNames.toArray());
 		
 		//initialize the sorted list of problems
 		Set<String> problemNames = new HashSet<String>();
@@ -335,7 +335,7 @@ ControllerListener {
 		List<String> sortedProblemNames = new ArrayList<String>(problemNames);
 		Collections.sort(sortedProblemNames);
 		
-		problem = new JComboBox(sortedProblemNames.toArray());
+		problem = new JComboBox<Object>(sortedProblemNames.toArray());
 		
 		//initialize miscellaneous components
 		numberOfSeeds = new JSpinner(new SpinnerNumberModel(10, 1, 

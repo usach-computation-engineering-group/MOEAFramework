@@ -193,6 +193,7 @@ public abstract class AbstractAlgorithm implements Algorithm {
 		terminated = true;
 	}
 
+	@SuppressWarnings("deprecation")
 	@Override
 	protected void finalize() throws Throwable {
 		try {
