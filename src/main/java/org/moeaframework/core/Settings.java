@@ -558,8 +558,8 @@ public class Settings {
 		return PROPERTIES.getStringArray(KEY_DIAGNOSTIC_TOOL_ALGORITHMS, 
 				new String[] { "NSGAII", "NSGAIII", "GDE3", "eMOEA", "eNSGAII", 
 				"MOEAD", "MSOPS", "CMA-ES", "SPEA2", "PAES", "PESA2", "OMOPSO",
-				"SMPSO", "IBEA", "SMS-EMOA", "VEGA", "DBEA", "Random", "RVEA",
-				"RSO" });
+				"MOGWO", "SMPSO", "IBEA", "SMS-EMOA", "VEGA", "DBEA", "Random",
+				"RVEA",	"RSO" });
 	}
 	
 	/**
