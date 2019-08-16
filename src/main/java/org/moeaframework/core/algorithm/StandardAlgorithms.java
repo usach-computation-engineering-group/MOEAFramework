@@ -21,6 +21,7 @@ import java.util.List;
 import java.util.Properties;
 
 import org.apache.commons.numbers.combinatorics.BinomialCoefficient;
+import org.moeaframework.core.algorithm.pso.MOGWO;
 import org.moeaframework.core.algorithm.pso.OMOPSO;
 import org.moeaframework.core.algorithm.pso.SMPSO;
 import org.moeaframework.core.algorithm.evolutionary.DBEA;
@@ -200,6 +201,11 @@ import org.moeaframework.util.weights.RandomGenerator;
  *         {@code divisionsInner})</td>
  *   </tr>
  *   <tr>
+ *     <td>MOGWO</td>
+ *     <td>Real</td>
+ *     <td>{@code populationSize, archiveSize, epsilon}</td>
+ *   </tr>
+ *   <tr>
  *     <td>SMPSO</td>
  *     <td>Real</td>
  *     <td>{@code populationSize, archiveSize, pm.rate,
@@ -306,7 +312,9 @@ public class StandardAlgorithms extends AlgorithmProvider {
 				return newPESA2(typedProperties, problem);
 			} else if (name.equalsIgnoreCase("OMOPSO")) {
 				return newOMOPSO(typedProperties, problem);
-			} else if (name.equalsIgnoreCase("SMPSO")) {
+			} else if (name.equalsIgnoreCase("MOGWO")) {
+				return newMOGWO(typedProperties, problem); 
+ 			} else if (name.equalsIgnoreCase("SMPSO")) {
 				return newSMPSO(typedProperties, problem);
 			} else if (name.equalsIgnoreCase("IBEA")) {
 				return newIBEA(typedProperties, problem);
@@ -832,6 +840,34 @@ public class StandardAlgorithms extends AlgorithmProvider {
 		return new OMOPSO(problem, populationSize, archiveSize,
 				epsilon, mutationProbability, perturbationIndex, maxIterations);
 	}
+	
+ 	/**
+	 * Returns a new {@link MOGWO} instance.
+ 	 * 
+	 * @param properties the properties for customizing the new {@code MOGWO}
+ 	 *        instance
+ 	 * @param problem the problem
+	 * @return a new {@code MOGWO} instance
+ 	 */
+	private Algorithm newMOGWO(TypedProperties properties, Problem problem) {
+		if (!checkType(RealVariable.class, problem)) {
+ 			throw new FrameworkException("unsupported decision variable type");
+ 		}		
+ 						
+ 		int populationSize = (int)properties.getDouble("populationSize", 100);
+		int archiveSize = (int)properties.getDouble("archiveSize", 100);
+		int maxIterations = (int)properties.getDouble("maxEvaluations", 25000) /
+				populationSize;
+		double mutationProbability = properties.getDouble("mutationProbability",
+				1.0 / problem.getNumberOfVariables());
+		double perturbationIndex = properties.getDouble("perturbationIndex",
+				0.5);
+		double[] epsilon = properties.getDoubleArray("epsilon",
+				new double[] { EpsilonHelper.getEpsilon(problem) });
+
+		return new MOGWO(problem, populationSize, archiveSize,
+				epsilon, mutationProbability, perturbationIndex, maxIterations);
+ 	}
 	
 	/**
 	 * Returns a new {@link SMPSO} instance.
